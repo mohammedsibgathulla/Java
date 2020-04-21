@@ -14,6 +14,9 @@ import java.util.function.Consumer;
  *Java 8 has introduced forEach method in java.lang.Iterable interface so that while writing code we focus on
  * business logic only. forEach method takes java.util.function.Consumer object as argument, so it helps in having our
  * business logic at a separate location that we can reuse.
+ * 
+ * The number of lines might increase but forEach method helps in having the logic for iteration and business logic
+ * at separate place resulting in higher separation of concern and cleaner code.
  */
 public class Java8ForEachExample {
 public static void main(String[] args) {
@@ -41,6 +44,8 @@ public static void main(String[] args) {
 		//traversing with Consumer interface implementation
 		MyConsumer action = new MyConsumer();
 		myList.forEach(action);
+
+	
 		
 	}
 }

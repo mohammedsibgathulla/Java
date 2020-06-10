@@ -1,4 +1,4 @@
-package com.java.designpatterns.creational;
+package com.java.designpatterns.creational.singleton;
 public class ThreadSafeSingleton {
 
     private static ThreadSafeSingleton instance;

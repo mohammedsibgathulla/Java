@@ -1,4 +1,4 @@
-package com.java.designpatterns.creational;
+package com.java.designpatterns.creational.singleton;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

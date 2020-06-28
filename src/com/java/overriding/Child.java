@@ -1,4 +1,9 @@
 package com.java.overriding;
+
+/**
+ * @author root
+ *
+ */
 class Child extends Parent {
 
     // Hiding Parent class's variable `x` by defining a variable in child class with same name.

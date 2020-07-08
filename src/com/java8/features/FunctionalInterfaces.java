@@ -254,6 +254,7 @@ public class FunctionalInterfaces {
 		
 	}
 
+
 	public static void main(String[] args) {
 		new FunctionalInterfaces();
 	}

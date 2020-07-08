@@ -1,0 +1,10 @@
+https://www.geeksforgeeks.org/implement-runnable-vs-extend-thread-in-java/
+
+When we extend Thread class, we can’t extend any other class even we require and When we implement 
+Runnable, we can save a space for our class to extend any other class in future or now.
+
+When we extend Thread class, each of our thread creates unique object and associate with it. 
+When we implements Runnable, it shares the same object to multiple threads.
+
+NOTE : In the case of multithreading we cant predict the exact order of output because it will vary 
+from system to system or JVM to JVM.

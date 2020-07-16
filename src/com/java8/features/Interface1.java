@@ -12,6 +12,8 @@ public interface Interface1 {
 		System.out.println("Printing "+str);
 	}
 	
+	
+	
 	//trying to override Object method gives compile-time error as
 	//"A default method cannot override a method from java.lang.Object"
 	

@@ -1,4 +1,4 @@
-package com.java.algorithms.recursion;
+package com.java.programs.recursion;
 
 public class StringReverse {
 	String reverse = "";
